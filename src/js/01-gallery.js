@@ -5,8 +5,7 @@ import { galleryItems } from './gallery-items';
 import SimpleLightbox from "simplelightbox";
 // Додатковий імпорт стилів
 import "simplelightbox/dist/simple-lightbox.min.css";
-console.log(galleryItems);
-const listEl = document.querySelector('.gallery');
+const listEl = document.querySelector ('.gallery');
 const addMarkup = creatingListPictures(galleryItems);
 
 function creatingListPictures(gallaryArray) {
