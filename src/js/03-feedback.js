@@ -43,7 +43,6 @@ function submitForm(event) {
         massage: textareaEl.value,
     }
     console.log('User:', submitUser);
-
     inputEl.value = '';
     textareaEl.value = '';
     localStorage.removeItem('feedback-form-state');
